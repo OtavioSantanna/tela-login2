@@ -1,0 +1,161 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(1, 1, 216), rgb(216, 213, 213));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* A div CONTAINER representa a parte preta atrás dos inputs*/
+.container
+{
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* DIVS DO CONTAINER*/
+.titulo
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 30px;
+    cursor: default;
+}
+.div_nomes
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+    font-size: 30px;
+}
+.div_email
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.div_senha
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+    font-size: 30px;
+}
+.div_botao
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+/*DIVS DE ESTILIZAÇÃO DOS INPUTS*/
+.input_nomes
+{
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+    border: none;    
+    background-color: rgb(243, 243, 243);
+}
+.input_email
+{
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+    border: none;    
+    background-color: rgb(243, 243, 243);
+}
+.input_senha
+{
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+    margin: 3px;
+    border: none;    
+    background-color: rgb(243, 243, 243);
+}
+
+/* DIV BOTÃO E ANIMAÇÕES DELE*/
+.div_botao
+{
+    width: 90%;
+    height: 20%;
+}
+
+button
+{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #007FFF;
+}
+
+
+
+
+button:hover
+{
+    background-color: #0057ad;
+    cursor: pointer;
+    transition: 0.5s;
+}
+p
+{
+    font-size: 24px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*input
+{
+    padding: 5px;
+    border-radius: 10px;  NÃO
+    border: none;
+    outline: none;
+}*/
